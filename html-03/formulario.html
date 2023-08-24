@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+
+    <form action="" method="post" enctype="application/x-www-form-urlencoded">
+      <div>
+        <label for="nombre">Nombre: </label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Nombre Completo"
+          readonly
+          required
+        />
+      </div>
+
+      <div>
+        <label for="mensaje">Mensaje: </label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <label for="provincia">Provincia: </label>
+        <select name="provincia" id="provincia">
+          <option value=""></option>
+          <option value="ba">Buenos Aires</option>
+          <option value="cb">Córdoba</option>
+          <option value="tu">Tucumán</option>
+        </select>
+      </div>
+
+      <!-- <input type="submit" value="Enviar" /> no es conveniente usarlo -->
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
