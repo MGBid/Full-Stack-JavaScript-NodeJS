@@ -1,0 +1,64 @@
+<!-- CLASE 5 TODO
+    La tarea es: usar selectores, fuentes e iconos
+
+A partir de este codigo: https://gist.github.com/JePaFe/925890d771b98d4755888a9af1fc9865
+Primero hay algunas mala práctica dentro del código, hay que arreglarlas
+El segundo párrafo de la sección 1 y de los dos artículos tiene que tener color verde, no se puede usar class ni id
+Cambiar el color de los párrafos que estén dentro de la sección, no tiene que afectar a los artículos
+Cambiar la letra de los elementos h
+Cambiar la fuente de los elementos p, no tiene que ser la misma que los elementos h
+Agregar al elemento small del footer el símbolo de copyright que es una C encerrada en un círculo, tiene que ser un icono -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Selectores</title>
+  </head>
+  <body>
+    <header>
+      Logo
+      <nav>
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Servicios</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Selectores</h1>
+      <p id="p-crimson">Lorem ipsum dolor sit.</p>
+
+      <section>
+        <h2>Sección 1</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p>Nihil beatae officia sunt, pariatur omnis non.</p>
+        <p>Ut maxime illo dicta nisi molestiae facere.</p>
+      </section>
+
+      <section>
+        <h2>Sección 2</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <article>
+          <h3>Articulo 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p>Quis adipisci natus ratione nostrum enim.</p>
+          <p>Quasi ipsam odio dignissimos obcaecati ipsum.</p>
+        </article>
+
+        <article>
+          <h3>Articulo 2</h3>
+          <p>Ipsum reprehenderit mollitia facere labore facilis.</p>
+          <p>Dolor molestias minima repudiandae cumque amet!</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <small>Copyright 2023</small>
+    </footer>
+  </body>
+</html>
