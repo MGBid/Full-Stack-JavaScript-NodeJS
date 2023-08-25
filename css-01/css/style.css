@@ -1,0 +1,23 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+p {
+  color: red;
+  text-decoration: underline;
+}
+/*
+.parrafo-destacado {
+  color: blue;
+} 
+
+#parrafo-tres {
+  color: green;
+} */
+
+body {
+  color: darkorange;
+  border: solid;
+}
